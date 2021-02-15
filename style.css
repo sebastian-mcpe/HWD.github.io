@@ -545,11 +545,15 @@ ul{
     }
     .seccion-2{
         height: 1500px;
+        width: 100%;
+    }
+    .tema h1{
+        font-size: 70px;
     }
     .quienes-somos{
     display: grid;  
-    grid-template-columns: 400px;
-    grid-template-rows: 400px 300px 400px;
+    grid-template-columns: 100%;
+    grid-template-rows: 500px 400px 150px;
     grid-column-gap: 50px;
     grid-row-gap: 30px;
     grid-template-areas: "qs"
@@ -557,6 +561,7 @@ ul{
                          "img";
     padding-top: 70px;
     color: white;
+    width: 80%;
     }
     .servicios{
         grid-template-columns: 300px 300px;
@@ -569,5 +574,11 @@ ul{
         top: 2200px;
         width: 3000px;
         filter: blur(10px) brightness(10%);
+    }
+    .inner-header ul{
+        display: none;
+    }
+    .inner-header{
+        width: 100%;
     }
 }
